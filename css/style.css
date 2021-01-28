@@ -1,0 +1,39 @@
+#pracownicy {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px auto;
+    text-align: center;
+    justify-content: center;
+}
+
+span,
+input {
+    width: 100px;
+    margin: 5px 2px;
+    text-align: center;
+}
+
+span {
+    border: 1px solid lightgray;
+}
+
+.student {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 20px 30px;
+    width: 150px;
+    margin: 50px auto;
+    font-size: 22px;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
