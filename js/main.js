@@ -13,7 +13,6 @@ document.getElementById('oblicz').addEventListener('click', function() {
 
  
         for (let ocena of oceny) {
-            console.log(zajeciaDod.value );
 
             if (zajeciaDod.value.includes(ocena.className && ocena.value < 6.0)) {
 
@@ -30,8 +29,6 @@ document.getElementById('oblicz').addEventListener('click', function() {
         srednia = (sumaOcen/oceny.length).toFixed(2) ;
 
         student.querySelector('.srednia').innerText = srednia;
-
-        console.log(student.querySelector('span').innerHTML + ' ' + srednia);
 
         (srednia >= 4.75) ? student.querySelector('.uczen').classList.add('green') : -1 
     }
